@@ -1,5 +1,5 @@
 .navbar-nav .nav-link {
-    font-size: 22px;
+    font-size: 17px;
     margin: 17px;
     color: white !important;
 }
@@ -13,7 +13,68 @@
     height: 359px;
     
 }
-
+/* Thiết lập màu nền và màu chữ cho thanh điều hướng */
+.navbar {
+    background-color: blue;
+    color: white;
+  }
+  
+  /* Thiết lập màu chữ khi di chuột qua các liên kết */
+  .navbar-nav .nav-item .nav-link {
+    color: white;
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover {
+    color: yellow; /* Màu chữ thay đổi khi di chuột qua */
+  }
+  
+  /* Thiết lập màu nền cho nút tìm kiếm và nút Search */
+  .form-control {
+    background-color: white;
+  }
+  
+  .btn-outline-success {
+    background-color: blue;
+    color: white;
+  }
+  /* Chỉnh kích thước và khoảng cách giữa các liên kết trong thanh điều hướng */
+.navbar-nav .nav-item {
+    margin-right: 15px; /* Khoảng cách giữa các liên kết */
+  }
+  
+  /* Loại bỏ gạch chân và định dạng chữ trên liên kết */
+  .navbar-nav .nav-item .nav-link {
+    text-decoration: none; /* Loại bỏ gạch chân */
+    font-weight: bold; /* Định dạng chữ in đậm */
+  }
+  
+  /* Điều chỉnh khoảng cách giữa các liên kết khi hiển thị trên cùng 1 dòng */
+  @media (min-width: 768px) {
+    .navbar-nav {
+      display: flex; /* Sử dụng flexbox để hiển thị các liên kết trên cùng 1 dòng */
+      align-items: center; /* Căn giữa các liên kết theo chiều dọc */
+    }
+  }
+  
+  /* Thiết lập màu và kích thước của biểu tượng tìm kiếm */
+  .fa-search {
+    color: blue;
+    font-size: 18px;
+  }
+  
+  /* Thiết lập màu và biểu tượng cho liên kết "Login" */
+  .navbar-text a {
+    color: white;
+  }
+  
+  /* Điều chỉnh khoảng cách giữa các phần tử trên thanh điều hướng */
+  .navbar-nav {
+    margin-right: 20px; /* Khoảng cách bên phải */
+  }
+  .form-inline {
+    display: flex;
+    align-items: center;
+  }
 .footer {
     background-color: #0134eb; 
     color: white; 
