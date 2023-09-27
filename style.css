@@ -1,0 +1,27 @@
+.navbar-nav .nav-link {
+    font-size: 22px;
+    margin: 17px;
+    color: white !important;
+}
+.navbar-nav {
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center;
+}
+.container-fluid img{
+    margin-left: 10px;
+    height: 359px;
+    
+}
+
+.footer {
+    background-color: #0134eb; 
+    color: white; 
+    padding: 20px 0; 
+    text-align: center; 
+    font-size: 18px; 
+  }
+  
+  .footer-info {
+    font-size: 24px; 
+  }
