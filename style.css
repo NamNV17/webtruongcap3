@@ -75,6 +75,10 @@
     display: flex;
     align-items: center;
   }
+  .scrollable-text {
+    max-height: 150px; /* Điều chỉnh chiều cao tối đa của nội dung */
+    overflow-y: auto; /* Cho phép cuộn dọc khi nội dung vượt quá chiều cao tối đa */
+}
 .footer {
     background-color: #0134eb; 
     color: white; 
